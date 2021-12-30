@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Navigation</title>
+    <style>
+        .header{
+            min-height: 100vh;
+            width: 100%;
+            background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/ad.png);
+            background-position: center;
+            background-size: cover;
+            position:relative;
+        }
+        .navbar{
+            background-color: black;
+            border-radius: 30px;
+            
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float: left;
+            list-style: none; 
+            padding-top: 10px;
+            margin: 5px 10px;
+            
+        }
+        .navbar li a{
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+        }
+        .navbar li a:hover{
+            color: red
+        }
+        .search{
+            float: right;
+            color: white;
+            padding: 12px 75px;
+        }
+        .navbar input{
+            border: 2px solid black;
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 129px;
+        }
+        .text-box{
+            width: 100%;
+            left: 1%;
+            color:#fff;
+            position: absolute;
+          
+        }
+        .tset-box{
+            width: 90%;
+            color: white;
+            position:absolute;
+            top: 40%;
+            left: 8%;
+            transform: traslate(-50%,-50%);
+            text-align:center;
+        }
+        .tset-box h1{
+            font-size: 62px;
+        }
+        .hero-btn{
+            display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            border: 1px solid #fff;
+            padding: 12px 34px;
+            font-size: 13px;
+            background: transparent;
+            position: relative;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+    </header>
+    <section  class="header">
+        <div class="text-box">
+            <h1>XLRI - Xavier School of Management Delhi-NCR Campus Jhajjar
+            </h1>
+        </div>
+        <div class="tset-box">
+            <h1>World's Biggest University</h1>
+            <a href="class="hero-btn">Visit Us To Know More</a>
+        </div>
+        <br><br><br>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">ABOUT UNIVERSITY</a></li>
+                <li><a href="#">ACADEMIC PROGRAMMES</a></li>
+                <li><a href="#">EXECUTIVE EDUCATION</a></li>
+                <li><a href="#">FACULTY & RESEARCH</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Search this website">
+                </div>
+            </ul>
+        </nav>
+      
+    </section>
+</body>
+
+</html>
