@@ -125,12 +125,26 @@
     font-size: 150%;
 }
 .def{
+    text-align: center;
     width: 500px;
     height: 400px;
     border-style: groove;
     border-width: 10px;
     background-image: url();
 }
+
+.def img{
+    
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+}
+
+.def p{
+    text-align: justify;
+    padding: 6px;
+}
+
 .heamnt{
     padding: 20px;
     display: flex;
