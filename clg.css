@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/ad.png);
+    background-position: center;
+    background-size: cover;
+    position:relative;
+}
+.navbar{
+    background-color: black;
+    border-radius: 30px;
+    
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none; 
+    padding-top: 10px;
+    margin: 5px 10px;
+}   
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+    color: red
+}
+.search{
+    float: right;
+    color: white;
+    padding: 12px 75px;
+}
+.navbar input{
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 129px;
+}
+.new{
+    display: flex;
+}
+.text-box{
+    width: 85%;
+    text-align: right;
+    margin-top: 35px;
+    color:yellowgreen;
+    /* position: absolute; */
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+}
+.tset-box{
+    width: 90%;
+    color: white;
+    position:absolute;
+    top: 40%;
+    left: 8%;
+    transform: traslate(-50%,-50%);
+    text-align:center;
+}
+.tset-box h1{
+    font-size: 62px;
+}
+.tset-box .hero_btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 14px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.footer{
+    background-color: rgb(112, 112, 112);
+    display: flex;
+}
+.footer ul li{
+    list-style: none;
+    font-size: 16px;
+}
+
+.align{
+    display: flex;
+    padding: 6px;
+
+}
+.icon{
+    margin-right: 8px;
+}
+.importantlinks, .address{
+    margin: 14px;
+}
+.xyz{
+    padding-left: 5%;
+    display: block;
+    padding: 20px;
+}
+.abc{
+    width: 600px;
+    height: fit-content;
+    border-style: groove;
+    border-width: 10px;
+    border-color: cadetblue;
+    border-radius: 10px 10px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.abc h2{
+    margin: 20px;
+    padding: 10px 10px;
+    padding-left: 12%;
+}
+.abc li{
+    margin: 20px;
+    padding: 10px 0px;
+    font-size: 150%;
+}
+.def{
+    width: 500px;
+    height: 400px;
+    border-style: groove;
+    border-width: 10px;
+    background-image: url();
+}
+.heamnt{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
